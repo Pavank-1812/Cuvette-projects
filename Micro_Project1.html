@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dweep.io</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .item1 {
+            height: 108px;
+            width: 562px;
+            padding: 83px 136px;
+        }
+
+        p {
+            text-align: justify;
+            color: #484848;
+
+        }
+
+        .above {
+            height: 592px;
+            width: auto;
+            background-color: #ffcd9e;
+            flex-shrink: 0;
+        }
+
+        .item2 {
+            height: 575px;
+            width: 575px;
+        }
+
+        .note {
+            font-size: small;
+            text-align: left;
+            color: white;
+        }
+
+        .container2 {
+            display: flex;
+            color: #fff;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            font-size: 20px;
+            flex-direction: row;
+            flex-shrink: 0;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .below {
+            height: 298px;
+            width: auto;
+            background-color: #282828;
+        }
+
+        .input1 {
+            border: solid;
+            border-radius: 4px;
+            color: #888;
+            padding: 15px 75px 15px 15px;
+            border-color: black;
+            border-width: 3px;
+            font-weight: 600;
+        }
+
+        .list2 {
+            text-align: right;
+        }
+
+        .late {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        .button {
+            background-color: black;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .item3 {
+            position: absolute;
+            right: 275px;
+            width: auto;
+            top: 675px;
+        }
+
+        .heading1 {
+            font-size: 32px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="above">
+
+        <div class="container">
+            <div class="item1 item">
+                <h1 id="heading1"><b>An inspiring design delivered to <br>your inbox every morning </b></h1><br>
+                <p>Our team scouts the internet for the best designs, <br>illustrations and art and delivers a truly
+                    inspiring <br>
+                    one every day to your inbox</p><br><br>
+                <h3><b>Show me how it looks</b></h3><br><br>
+                <input type="text" name="" id="input_email" placeholder="Your e-mail address"
+                    class="input1">&nbsp;&nbsp;
+                <a href="#" class="button" target="_blank">Register Now</a><br><br>
+                <p class="note"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Free - No Spam - No Data Sharing
+                </p>
+            </div>
+            <div class="item2 item">
+                <img src="dweep.png" alt="">
+            </div>
+        </div>
+    </header>
+    <footer class="below">
+        <div class="container2">
+            <div class="item1">
+                <ul type="none">
+                    <li><a href="#" target="_blank">Prompt Generator</a></li>
+                    <li><a href="#" target="_blank">Dweep Daily</a></li>
+                    <li><a href="#" target="_blank">All Contributors</a></li>
+                    <li><a href="#" target="_blank">Your Data on Dweep.io</a></li>
+                    <li><a href="#" target="_blank">Contribute to Dweep</a></li>
+                </ul>
+            </div>
+            <div class="item3">
+                <ul type="none" class="list2">
+                    <li><a href="#" target="_blank">Dweep.io</a></li>
+                    <li><a href="#" target="_blank">Made with love in India</a></li>
+                    <div class="late">
+                        <li><a href="#" target="_blank"><img src="LinkedinLogo.svg" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="InstagramLogo.svg" alt=""></a></li><br><br>
+                    </div>
+                    <li><a href="#" target="_blank">Hello@Dweep.io</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
